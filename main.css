@@ -32,21 +32,31 @@ table{
     border-collapse:collapse;
 }
 td{
-    border: 2px solid #fff;
+    
     text-align: center;
     height: 60px;
     width: 320px;
 }
 
-td.first:nth-child(1){
+td.first__str__nav:nth-child(1){
     background-color: rgb(169, 9, 243);
 }
 
-td.first:nth-child(2){
+td.first__str__nav:nth-child(2){
     background-color: rgb(236, 124, 59);
 }
-td.first:nth-child(3){
+td.first__str__nav:nth-child(3){
     background-color: rgb(85, 152, 228);
+}
+td.second__str__nav:nth-child(1){
+    background-color: rgb(84, 209, 140);
+}
+
+td.second__str__nav:nth-child(2){
+    background-color: rgb(233, 71, 248);
+}
+td.second__str__nav:nth-child(3){
+    background-color: rgb(255, 177, 8);
 }
 a{
     color: #fff;
