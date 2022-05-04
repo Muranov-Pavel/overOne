@@ -16,7 +16,7 @@ body{
 header{
     padding-top: 60px;
     height: 700px;
-    background:  linear-gradient(82.97deg, rgba(0, 0, 0, 0.46) 22.14%, rgba(0, 0, 0, 0) 81.34%), url(/img/9-2\ 1.jpg);
+    background:  linear-gradient(82.97deg, rgba(0, 0, 0, 0.46) 22.14%, rgba(0, 0, 0, 0) 81.34%), url(img/9-2\ 1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
