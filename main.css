@@ -8,8 +8,7 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family:"Roboto Condensed";
 }
  h1{
      font-size: 64px;
@@ -22,11 +21,16 @@ body{
  span{
      display: block;
  }
+ .price{
+    display: inline;
+    color: #DF59CA;
+    font-size: 24px;
+    font-weight: 700;
+}
 .wraper{
     margin: 0 auto;
     max-width: 1520px;
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -82,8 +86,7 @@ a{
     text-decoration:none ;
 }
 
-.nav__icon{
-    
+.nav__icon{  
     background-image:url(https://st3.depositphotos.com/8055500/36581/v/450/depositphotos_365812386-stock-illustration-open-window-icon-flat-style.jpg);
     background-position: center;
     background-size: cover;
@@ -106,17 +109,16 @@ a{
 }
 .main__info__header{
     margin-top: 80px;
-    max-width: 743px;
-    height: 380px;
 }
 .tel{
     background-color: rgb(157, 98, 221);
-    width: 318.28px;
+    min-width: 318.28px;
 }
 .h2__color{
     background-color: rgb(236, 123, 247);
 }
 .tel__item{
+    display: inline-block;
     display: flex;
     justify-content: space-between;
     padding: 20px 10px 20px 10px;
@@ -155,5 +157,23 @@ background-color: rgb(157, 98, 221);
 .building__types__example_img{
     align-items: center;
     max-width: max-content;
-    margin: 150px auto ;
+    margin: 150px auto 70px auto;
+}
+.type__windows{
+    flex-direction: column; 
+}
+.type__windows>h2{  
+    color:  #6C6577;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 40px;                  
+}
+.card{
+    margin: 15px;
+    padding: 90px 0 90px 60px;
+    background-image: linear-gradient(78.6deg, rgba(50, 34, 67, 0.8) 27.75%, rgba(50, 34, 67, 0) 96.1%), url(/img/casement2-1024x681\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
