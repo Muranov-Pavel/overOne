@@ -171,7 +171,7 @@ background-color: rgb(157, 98, 221);
 .card{
     margin: 15px;
     padding: 90px 0 90px 60px;
-    background-image: linear-gradient(78.6deg, rgba(50, 34, 67, 0.8) 27.75%, rgba(50, 34, 67, 0) 96.1%), url(/img/casement2-1024x681\ 1.png);
+    background-image: linear-gradient(78.6deg, rgba(50, 34, 67, 0.8) 27.75%, rgba(50, 34, 67, 0) 96.1%), url(img/casement2-1024x681\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
